@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@layer base {
+  /* perustyylit */
+  :root {
+    @apply bg-stone-100 font-sans font-normal text-stone-800 antialiased;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+  }
+  main {
+    @apply m-auto max-w-[80vw] p-8;
+    /* max-width: var(--container-7xl);
+    margin: auto;
+    padding: calc(var(--spacing) * 8); */
+  }
+  h1 {
+    @apply my-10 text-center text-5xl text-emerald-600;
+  }
+  h2 {
+    @apply my-5 text-2xl font-bold text-stone-900;
+  }
+}
