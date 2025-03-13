@@ -45,9 +45,9 @@ const Profiili = () => {
               </span>{' '}
               {new Date(user.created_at).toLocaleString('fi-FI')}
             </p>
-            <p className="text-lg">
+            {/* <p className="text-lg">
               <span className="font-semibold">User ID:</span> {user.user_id}
-            </p>
+            </p> */}
           </div>
         )}
       </div>

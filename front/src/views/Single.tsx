@@ -24,7 +24,7 @@ export const Single = () => {
           navigate(-1);
         }}
       >
-        Back
+        Takaisin
       </button>
 
       <div className="mb-10 flex flex-col items-center justify-center bg-[#fff] pb-20">
@@ -45,6 +45,9 @@ export const Single = () => {
 
           <div>
             Reseptin lisääjä: <strong>{item.username}</strong>
+          </div>
+          <div>
+            Lisätty: {new Date(item.created_at).toLocaleString('fi-FI')}
           </div>
         </div>
         <p className="my-5 px-10 py-5 font-bold">{item.description}</p>
