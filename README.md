@@ -14,6 +14,11 @@ Keskeiset toiminnallisuudet:
 - Käyttäjät voivat kommentoida reseptejä ja tykätä niistä.
 - Reseptien arviointi tähtiluokituksella (1–5 tähteä). (Jäi tekemättä)
 
+- ###
+- KORJAUKSET
+- Reseptin poistaminen -> näkymä päivittyy suoraan poistamisen jälkeen
+- Linkkien hover efektit päivitetty teemaan sopivammaksi
+
 ##### Yleinen näkymä
 ![Näyttökuva 2025-03-13 kello 10 30 46](https://github.com/user-attachments/assets/41053814-db75-47dc-8047-38c72675a0a3)
 
